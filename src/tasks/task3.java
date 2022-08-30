@@ -13,9 +13,10 @@ public class task3
             array[i] = console.nextInt();
         }
         System.out.print("\n" + "элементы массива, кратные 3: ");
+        console.close();
         for (int i = 0; i < array.length; i++) {
             if(array[i] % 3 == 0) {
-                 System.out.print(array[i] + ", ");
+                 System.out.print(array[i] + " ");
             }
         }
     }
