@@ -2,8 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class task3
-{
+public class task3 {
     public static void main(String[] args) {
     Scanner console = new Scanner(System.in);
     System.out.println("введите длину массива: ");
